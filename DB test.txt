@@ -4,6 +4,6 @@ CREATE TABLE `tb_movie` (
   `RegDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`MovieID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
-
+ 
 INSERT INTO `tb_movie` VALUES (1,'Movie Test','2021-04-23 01:20:46'),(2,'Test Data','2021-04-23 01:32:15'),(3,'Film Lucu','2021-04-23 01:32:15'),(4,'Drakor','2021-04-23 01:34:10'),(5,'Film Animasi','2021-04-23 01:34:10');
 
